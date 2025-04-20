@@ -19,3 +19,45 @@ h3{
 p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.Card{
+    width: 300px;
+    background-color:cadetblue;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease;   
+}
+.Card:hover{
+    transform: scale(1.03);
+}
+.Card img{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+.Card h2 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+.Card p{
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+.Card button{
+    background-color: #007bff;
+    color: white;
+    border:none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+.Card button:hover{
+    background-color: #0056b3;
+    transform:scale(1.05);
+}
