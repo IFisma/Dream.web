@@ -1,0 +1,103 @@
+
+body{
+    background: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin: 0;
+
+}
+.card{
+    width: 300px;
+    background:white;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    overflow: hidden;
+    transition:transform 0.2s ease;
+}
+.card:hover¨{
+    transform: translateY(-5px)
+}
+.card img{
+    width:100%;
+    height:180%;
+    object-fit:cover;
+
+}
+.card-content{
+    padding:20px;
+
+}
+.card-title{
+    font-size: 1.25rem;
+    margin: 0 0 10px;
+    color: #333;
+}
+.card-description{
+    font-zize: 0.95rem;
+    color: #666;
+    margin-bottom: 15px;
+
+}
+.card-button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4f46e5;
+    color: white;
+    border:none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+.card-button:hover{
+    background-color: #4338ca;
+}
+.card2{
+    width: 300px;
+    background:white;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    overflow: hidden;
+    transition:transform 0.2s ease;
+}
+.card2:hover¨{
+    transform: translateY(-5px)
+}
+.card2 img{
+    width:100%;
+    height:180%;
+    object-fit:cover;
+
+}
+.card2-content{
+    padding:20px;
+
+}
+.card2-title{
+    font-size: 1.25rem;
+    margin: 0 0 10px;
+    color: #333;
+}
+.card2-description{
+    font-zize: 0.95rem;
+    color: #666;
+    margin-bottom: 15px;
+
+}
+.card2-button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4f46e5;
+    color: white;
+    border:none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+.card2-button:hover{
+    background-color: #4338ca;
+}
