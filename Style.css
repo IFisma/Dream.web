@@ -1,5 +1,5 @@
 
-.segundacaja{
+.primeracaja{
     text-align: center;
     background-color: cadetblue;
     border-radius: 5px;
@@ -12,101 +12,56 @@
     transition: transform 0.5s ease;   
 }
 
-.terceracaja{
-    background-color: cornflowerblue;
-    border-radius: 5px;
-    padding: 15px;
+.primeracaja{
+    width: 300px;
+    background-color:white;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease;   
 }
+.primeracaja:hover{
+    transform: scale(1.03);
+}
+.primeracaja img{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+.primeracaja h2 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+.primeracaja p{
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+.primeracaja button{
+    background-color: #007bff;
+    color: white;
+    border:none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+.primeracaja button:hover{
+    background-color: #0056b3;
+    transform:scale(1.05);
+}
+
+
 h3{
     color: blueviolet;
     
 }
 p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.Card{
-    width: 300px;
-    background-color:white;
-    border-radius: 16px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    overflow: hidden;
-    text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    transition: transform 0.3s ease;   
-}
-.Card:hover{
-    transform: scale(1.03);
-}
-.Card img{
-    width: 100%;
-    border-radius: 12px;
-    margin-bottom: 15px;
-}
-.Card h2 {
-    font-size: 22px;
-    margin: 10px 0;
-}
-.Card p{
-    font-size: 16px;
-    color: #444;
-    margin-bottom: 20px;
-}
-.Card button{
-    background-color: #007bff;
-    color: white;
-    border:none;
-    padding: 10px 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease, transform 0.2s;
-}
-.Card button:hover{
-    background-color: #0056b3;
-    transform:scale(1.05);
-}
-.Card2{
-    width: 300px;
-    background-color:white;
-    border-radius: 16px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    overflow: hidden;
-    text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    transition: transform 0.3s ease;   
-}
-.Card2:hover{
-    transform: scale(1.03);
-}
-.Card2 img{
-    width: 100%;
-    border-radius: 12px;
-    margin-bottom: 15px;
-}
-.Card2 h2 {
-    font-size: 22px;
-    margin: 10px 0;
-}
-.Card2 p{
-    font-size: 16px;
-    color: #444;
-    margin-bottom: 20px;
-}
-.Card2 button{
-    background-color: #007bff;
-    color: white;
-    border:none;
-    padding: 10px 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease, transform 0.2s;
-}
-.Card2 button:hover{
-    background-color: #0056b3;
-    transform:scale(1.05);
 }
 .segundacaja{
     width: 300px;
@@ -150,3 +105,48 @@ p{
     background-color: #0056b3;
     transform:scale(1.05);
 }
+.terceracaja {
+    width: 300px;
+    background-color:white;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease;   
+}
+.terceracaja:hover{
+    transform: scale(1.03);
+}
+.terceracaja {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+.terceracaja
+    h2 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+.terceracaja {
+    p{
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+.terceracaja {
+    button{
+    background-color: #007bff;
+    color: white;
+    border:none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+.terceracaja button:hover{
+    background-color: #0056b3;
+    transform:scale(1.05); } 
+    
