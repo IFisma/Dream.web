@@ -199,3 +199,8 @@ border: #444;
     padding: 20px;
     text-align: center;
 }
+.flexbox{
+    flex-direction:row-reverse;
+    margin: 0%;
+    padding: 0%;
+}
